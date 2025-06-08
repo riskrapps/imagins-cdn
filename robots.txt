@@ -1,0 +1,22 @@
+User-agent: *
+Allow: /
+
+# Explicitly allow Meta/Facebook crawlers
+User-agent: facebookexternalhit/1.1
+Allow: /
+
+User-agent: facebookexternalhit/1.0
+Allow: /
+
+User-agent: FacebookBot
+Allow: /
+
+User-agent: facebook-sharing-bot
+Allow: /
+
+# Allow other social media crawlers
+User-agent: Twitterbot
+Allow: /
+
+User-agent: LinkedInBot
+Allow: /
